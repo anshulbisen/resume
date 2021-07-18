@@ -3,13 +3,15 @@ import styles from "./SideBar.module.css";
 import profile_pic from "../../assets/pic.png";
 import Header from "../Header/Header";
 import IconItem from "./IconItem/IconItem";
-import EmailIcon from "@material-ui/icons/Email";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import PhoneIcon from "@material-ui/icons/Phone";
-import WebIcon from "@material-ui/icons/Web";
-import StorageIcon from "@material-ui/icons/Storage";
-import MenuBookIcon from "@material-ui/icons/MenuBook";
-import DatabaseIcon from "../../assets/database.svg";
+import { FaDatabase, FaPhoneAlt, FaServer } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
+import { AiFillLinkedin } from "react-icons/ai";
+import { ImBooks } from "react-icons/im";
+import { GoBrowser } from "react-icons/go";
+import { CgGym } from "react-icons/cg";
+import { GiPingPongBat } from "react-icons/gi";
+import { RiFootballLine } from "react-icons/ri";
+import { IoLogoGameControllerB } from "react-icons/io";
 import Skill from "./Skill/Skill";
 
 function SideBar() {
@@ -18,34 +20,36 @@ function SideBar() {
       <img className={styles.profile_pic} src={profile_pic} alt="" />
       <div className={styles.contact_container}>
         <Header white value={"contact"} />
-        <IconItem icon={<PhoneIcon />} text={"+91 9890343232"} />
-        <IconItem icon={<EmailIcon />} text={"anshulbisen@gmail.com"} />
+        <IconItem icon={<FaPhoneAlt />} text={"+91 9890343232"} />
+        <IconItem icon={<MdEmail />} text={"anshulbisen@gmail.com"} />
         <IconItem
-          icon={<LinkedInIcon />}
+          icon={<AiFillLinkedin />}
           text={"www.linkedin.com/in/anshulbisen"}
         />
       </div>
       <div className={styles.skills_container}>
         <Header white value={"Skills"} />
         <Skill
-          icon={<WebIcon fontSize={"large"} />}
+          icon={<GoBrowser />}
           title={"Front-End"}
-          skills={["ReactJS", "Redux", "JavaScript", "HTML/CSS"]}
+          skills={["ReactJS", "Redux", "JavaScript", "HTML", "CSS"]}
         />
         <Skill
-          icon={<StorageIcon fontSize={"large"} />}
+          icon={<FaServer />}
           title={"Back-End"}
           skills={[
             "Java",
-            "Spring-Core",
+            "Spring",
+            "AOP",
             "Spring Boot",
-            "Spring-Reactor",
+            "Project Reactor",
             "Hibernate",
             "REST",
+            "JMS",
           ]}
         />
         <Skill
-          icon={<img className={styles.icon} src={DatabaseIcon} alt="" />}
+          icon={<FaDatabase />}
           title={"Database"}
           skills={[
             "MySQL",
@@ -56,11 +60,29 @@ function SideBar() {
           ]}
         />
         <Skill
-          icon={<MenuBookIcon fontSize={"large"} />}
-          title={"Basic Knowledge"}
+          icon={<ImBooks />}
+          title={"Others"}
           noWrap={true}
-          skills={["Docker", "AWS", "Maven", "Ant"]}
+          skills={["Docker", "AWS", "Maven", "Ant", "React Native", "PWA"]}
         />
+      </div>
+
+      <div className={styles.hobby_container}>
+        <Header white value={"Hobbies"} />
+        <div className={styles.hobby_icons}>
+          <span className={styles.icon}>
+            <CgGym />
+          </span>
+          <span className={styles.icon}>
+            <GiPingPongBat />
+          </span>
+          <span className={styles.icon}>
+            <RiFootballLine />
+          </span>
+          <span className={styles.icon}>
+            <IoLogoGameControllerB />
+          </span>
+        </div>
       </div>
     </div>
   );

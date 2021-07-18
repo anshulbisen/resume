@@ -8,7 +8,7 @@ html {
   font-size: 62.5%;
   font-family: Roboto, serif;
   height: 850px;
-  width: 602px;
+  width: 600px;
 }
 
 *,
@@ -17,4 +17,8 @@ html {
   box-sizing: inherit;
   margin: 0;
   padding: 0;
+}
+
+img {
+  background-repeat: no-repeat;
 }

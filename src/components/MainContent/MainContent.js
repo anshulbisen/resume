@@ -26,7 +26,7 @@ function MainContent() {
         </div>
       </div>
       <div className={styles.body}>
-        <Header value={"Professional Experience"} />
+        <Header value={"Projects"} />
         <img className={styles.ice_logo} src={ICE} alt="" />
         <ProjectDescription
           title={"Checklist App"}
@@ -40,9 +40,9 @@ function MainContent() {
             "CSS",
             "Redis",
             "Reactor",
-            "Kafka",
             "REST",
-            "Webhooks",
+            "MySQL",
+            "Docker",
           ]}
         />
         <ProjectDescription
@@ -52,13 +52,8 @@ function MainContent() {
           technologies={[
             "Java",
             "Spring Boot",
-            "ReactJS",
-            "JavaScript",
-            "HTML",
-            "CSS",
+            "Project Reactor",
             "Redis",
-            "Reactor",
-            "Kafka",
             "REST",
             "Webhooks",
           ]}
@@ -71,9 +66,12 @@ function MainContent() {
             "Java",
             "Spring",
             "AOP",
+            "Multithreading",
+            "JMS",
+            "Apache POI",
+            "Cassandra",
             "ElasticSearch",
             "Logstash",
-            "Filebeat",
             "Kibana",
           ]}
         />
@@ -84,11 +82,13 @@ function MainContent() {
           technologies={[
             "Java",
             "Spring",
-            "AOP",
-            "ElasticSearch",
-            "Logstash",
-            "Filebeat",
-            "Kibana",
+            "Hibernate",
+            "Apache-Velocity",
+            "JAXB",
+            "Apache-CXF",
+            "REST",
+            "MySQL",
+            "Intersystems-Cache",
           ]}
         />
         <ProjectDescription
@@ -98,11 +98,13 @@ function MainContent() {
           technologies={[
             "Java",
             "Spring",
-            "AOP",
-            "ElasticSearch",
-            "Logstash",
-            "Filebeat",
-            "Kibana",
+            "Hibernate",
+            "JAXB",
+            "Apache-CXF",
+            "REST",
+            "SOAP",
+            "MySQL",
+            "Intersystems-Cache",
           ]}
         />
         <img className={styles.techm_logo} src={TechMahindra} alt="" />
@@ -111,13 +113,10 @@ function MainContent() {
           description={production_support_description}
           duration={"3.5 years"}
           technologies={[
-            "Java",
-            "Spring",
-            "AOP",
-            "ElasticSearch",
-            "Logstash",
-            "Filebeat",
-            "Kibana",
+            "Shell Scripts",
+            "Oracle SQL",
+            "AT&T Ticketing Tool",
+            "SLA",
           ]}
         />
         <Header value={"Education"} />
