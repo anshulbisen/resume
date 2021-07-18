@@ -1,0 +1,60 @@
+.container {
+  height: 100%;
+  width: 70%;
+  color: var(--primary-color);
+}
+
+.header {
+  padding: 1rem 1rem;
+  background-color: lightgrey;
+}
+
+.body {
+  padding: 0 1rem;
+}
+
+.name {
+  font-size: 5rem;
+  letter-spacing: 0.5rem;
+  display: flex;
+  font-weight: 700;
+  justify-content: center;
+  align-items: center;
+}
+
+.title_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  white-space: nowrap;
+  margin: 0 1rem;
+  text-transform: uppercase;
+}
+
+.title_container::before,
+.title_container::after {
+  display: inline-block;
+  content: "";
+  height: 0.7rem;
+  width: 40%;
+  background-color: var(--primary-color);
+}
+
+.ice_logo {
+  height: 4rem;
+  margin: 1rem 0;
+}
+
+.techm_logo {
+  height: 1.2rem;
+  margin: 1rem 0 1rem 0;
+}
+
+.text {
+  font-weight: 300;
+}
