@@ -5,13 +5,9 @@ import Header from "../Header/Header";
 import IconItem from "./IconItem/IconItem";
 import { FaDatabase, FaPhoneAlt, FaServer } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
-import { AiFillLinkedin } from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { ImBooks } from "react-icons/im";
 import { GoBrowser } from "react-icons/go";
-import { CgGym } from "react-icons/cg";
-import { GiPingPongBat } from "react-icons/gi";
-import { RiFootballLine } from "react-icons/ri";
-import { IoLogoGameControllerB } from "react-icons/io";
 import Skill from "./Skill/Skill";
 
 function SideBar() {
@@ -24,7 +20,8 @@ function SideBar() {
         <IconItem icon={<MdEmail />} text={"anshulbisen@gmail.com"} />
         <IconItem
           icon={<AiFillLinkedin />}
-          text={"www.linkedin.com/in/anshulbisen"}
+          text={"/in/anshulbisen"}
+          link={"https://www.linkedin.com/in/anshulbisen"}
         />
       </div>
       <div className={styles.skills_container}>
@@ -67,7 +64,7 @@ function SideBar() {
         />
       </div>
 
-      <div className={styles.hobby_container}>
+      {/*<div className={styles.hobby_container}>
         <Header white value={"Hobbies"} />
         <div className={styles.hobby_icons}>
           <span className={styles.icon}>
@@ -83,7 +80,7 @@ function SideBar() {
             <IoLogoGameControllerB />
           </span>
         </div>
-      </div>
+      </div>*/}
     </div>
   );
 }

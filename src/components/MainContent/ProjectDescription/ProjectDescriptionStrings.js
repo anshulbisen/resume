@@ -1,5 +1,5 @@
 export const checklist_description =
-  "Responsible for leding a team of 6 people based in India & Poland, tasked to build a Web Application for banks" +
+  "Responsible for leading a team of 6 people based in India & Poland, tasked to build a Web Application for banks" +
   " that automates the process of evaluating business rules on Mortgage Documents" +
   " which led to an increase in processing speed by 80%.";
 
@@ -16,7 +16,7 @@ export const system_monitoring_description =
 
 export const integration_framework_description =
   "Created a framework for collecting, transforming and sending data to various third-party services," +
-  " which led to faster onboarding of new Service Providers from 6 months to 1-2 months.";
+  " which led to faster boarding of new Service Providers from 6 months to 1-2 months.";
 
 export const workflow_engine_description =
   "Assisted in developing a Workflow Engine that creates a pipeline of system tasks" +
@@ -25,10 +25,9 @@ export const workflow_engine_description =
 
 export const production_support_description =
   "Responsible for troubleshooting and exercising triage methods to identify issues. Automate" +
-  " repeated tasks using shell scripts. Appropriately escalate issues to their" +
-  " respective support teams and vendors. Align all respective teams to drive" +
+  " repeated tasks using shell scripts. Align all respective teams to drive" +
   " efforts, gain results and resolve issues.";
 
 export const engineering_description =
-  "Completed Electronics and Communication Engineer with First Class with" +
+  "Completed Bachelor of Engineering in Electronics and Communication with First Class with" +
   " Distinction.";

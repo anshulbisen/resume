@@ -26,8 +26,8 @@ function MainContent() {
         </div>
       </div>
       <div className={styles.body}>
-        <Header value={"Projects"} />
-        <img className={styles.ice_logo} src={ICE} alt="" />
+        <Header value={"Projects"}/>
+        <img className={styles.ice_logo} src={ICE} alt=""/>
         <ProjectDescription
           title={"Checklist App"}
           description={checklist_description}
@@ -43,6 +43,7 @@ function MainContent() {
             "REST",
             "MySQL",
             "Docker",
+            "AWS",
           ]}
         />
         <ProjectDescription
@@ -107,7 +108,7 @@ function MainContent() {
             "Intersystems-Cache",
           ]}
         />
-        <img className={styles.techm_logo} src={TechMahindra} alt="" />
+        <img className={styles.techm_logo} src={TechMahindra} alt=""/>
         <ProjectDescription
           title={"Production Support and Maintenance"}
           description={production_support_description}
@@ -119,7 +120,7 @@ function MainContent() {
             "SLA",
           ]}
         />
-        <Header value={"Education"} />
+        <Header value={"Education"}/>
         <ProjectDescription
           title={"G. H. Raisoni College of Engineering"}
           description={engineering_description}
