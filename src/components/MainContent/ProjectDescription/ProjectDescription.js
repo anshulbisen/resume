@@ -23,7 +23,9 @@ function ProjectDescription({
       {technologies && (
         <div className={styles.technologies}>
           {technologies.map((t) => (
-            <div className={styles.technology}>{t}</div>
+            <div key={t} className={styles.technology}>
+              {t}
+            </div>
           ))}
         </div>
       )}

@@ -14,7 +14,9 @@ function Skill({ icon, title, skills }) {
       <IconItem icon={icon} text={title} style={style} />
       <div className={styles.skills_container}>
         {skills.map((skill) => (
-          <span className={styles.skill}>●&nbsp;&nbsp;{skill}</span>
+          <span key={skill} className={styles.skill}>
+            ●&nbsp;&nbsp;{skill}
+          </span>
         ))}
       </div>
     </div>
