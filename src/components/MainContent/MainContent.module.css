@@ -6,7 +6,7 @@
 
 .header {
   padding: 1rem 1rem;
-  background-color: #ddd;
+  background-color: #eee;
 }
 
 .body {
@@ -29,7 +29,7 @@
 }
 
 .title {
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   font-weight: bold;
   white-space: nowrap;
   margin: 0 1rem;
@@ -40,21 +40,22 @@
 .title_container::after {
   display: inline-block;
   content: "";
-  height: 0.7rem;
+  height: 1rem;
   width: 40%;
   background-color: var(--primary-color);
 }
 
-.ice_logo {
-  height: 4rem;
-  margin: 1rem 0;
-}
-
-.techm_logo {
-  height: 1.1rem;
-  margin: 1rem 0 1rem 0;
+.company_container {
+  display: flex;
+  margin: 2rem 0 1rem 0;
+  align-items: center;
+  color: var(--accent-color);
 }
 
 .text {
   font-weight: 300;
+}
+
+.duration{
+  font-size: 1.5rem;
 }

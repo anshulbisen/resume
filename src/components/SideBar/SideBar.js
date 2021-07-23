@@ -23,6 +23,11 @@ function SideBar() {
           text={"/in/anshulbisen"}
           link={"https://www.linkedin.com/in/anshulbisen"}
         />
+        <IconItem
+          icon={<AiFillGithub />}
+          text={"/anshulbisen"}
+          link={"https://github.com/anshulbisen"}
+        />
       </div>
       <div className={styles.skills_container}>
         <Header white value={"Skills"} />

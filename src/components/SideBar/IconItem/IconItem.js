@@ -4,7 +4,7 @@ import styles from "./IconItem.module.css";
 function IconItem({
   icon,
   text,
-  style = { fontSize: "0.9rem", whiteSpace: "normal" },
+  style = { fontSize: "1.5rem", whiteSpace: "normal" },
   link,
 }) {
   return (

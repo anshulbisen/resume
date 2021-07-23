@@ -6,7 +6,7 @@ import { ACCENT_COLOR } from "../../../common/constants/colors";
 function Skill({ icon, title, skills }) {
   const style = {
     whiteSpace: "noWrap",
-    fontSize: "1.3rem",
+    fontSize: "2rem",
     color: ACCENT_COLOR,
   };
   return (

@@ -1,14 +1,18 @@
 :root {
   --primary-color: #222;
   --accent-color: #e64545;
+  --a4-height: 1166px;
+  --a4-width: 826px;
 }
 
 html {
   box-sizing: border-box;
+  border-right: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
   font-size: 62.5%;
   font-family: Roboto, serif;
-  height: 850px;
-  width: 600px;
+  height: var(--a4-height);
+  width: var(--a4-width);
 }
 
 *,
@@ -17,6 +21,7 @@ html {
   box-sizing: inherit;
   margin: 0;
   padding: 0;
+  -webkit-text-size-adjust: none;
 }
 
 img {

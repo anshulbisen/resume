@@ -1,7 +1,8 @@
 .container {
   display: flex;
   flex-direction: column;
-  margin-bottom: 1rem;
+  justify-content: center;
+  margin-bottom: 2rem;
 }
 
 .skills_container {
@@ -13,4 +14,5 @@
 .skill {
   margin-right: 1rem;
   margin-bottom: 0.7rem;
+  font-size: 1.6rem;
 }

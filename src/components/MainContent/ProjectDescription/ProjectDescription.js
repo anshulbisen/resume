@@ -1,12 +1,21 @@
 import React from "react";
 import styles from "./ProjectDescription.module.css";
 
-function ProjectDescription({ title, description, duration, technologies }) {
+function ProjectDescription({
+  title,
+  role,
+  description,
+  duration,
+  technologies,
+}) {
   return (
     <div className={styles.container}>
       <div className={styles.header}>
-        <div className={styles.title}>{title}</div>
-        <div className={styles.dates}>{duration}</div>
+        <div className={styles.title}>
+          {title}&nbsp;&nbsp;
+          <div className={styles.role}>{role}</div>
+        </div>
+        <div className={styles.duration}>{duration}</div>
       </div>
       <div className={styles.body}>
         <div className={styles.description}>{description}</div>

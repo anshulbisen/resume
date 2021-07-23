@@ -2,7 +2,7 @@
   background-color: var(--primary-color);
   width: 30%;
   color: white;
-  height: 850px;
+  height: var(--a4-height);
   display: flex;
   justify-content: flex-start;
   align-items: center;
