@@ -18,7 +18,7 @@ function MainContent() {
   const Company = ({ image, link, height = "2rem", duration }) => {
     return (
       <div className={styles.company_container}>
-        <a style={{ flex: 1 }} href={link} target="_blank">
+        <a style={{ flex: 1 }} href={link} target="_blank" rel="noreferrer">
           <img style={{ height }} src={image} alt="Company" />
         </a>
         <span className={styles.duration}>{duration}</span>

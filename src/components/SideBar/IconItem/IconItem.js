@@ -12,7 +12,12 @@ function IconItem({
       <span className={styles.icon}>{icon}</span>
       <div style={style}>
         {link ? (
-          <a className={styles.link} href={link} target="_blank">
+          <a
+            className={styles.link}
+            href={link}
+            target="_blank"
+            rel="noreferrer"
+          >
             {text}
           </a>
         ) : (

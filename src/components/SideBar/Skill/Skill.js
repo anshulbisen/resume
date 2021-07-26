@@ -9,12 +9,20 @@ function Skill({ icon, title, skills }) {
     fontSize: "2rem",
     color: ACCENT_COLOR,
   };
+
+  const Dot = () => {
+    return <div className={styles.dot} />;
+  };
+
   return (
     <div className={styles.container}>
       <IconItem icon={icon} text={title} style={style} />
       <div className={styles.skills_container}>
         {skills.map((skill) => (
-          <span className={styles.skill}>●&nbsp;&nbsp;{skill}</span>
+          <span key={skill} className={styles.skill}>
+            <Dot />
+            {skill}
+          </span>
         ))}
       </div>
     </div>
