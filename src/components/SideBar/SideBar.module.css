@@ -1,5 +1,5 @@
 .container {
-  background-color: var(--primary-color);
+  background: linear-gradient(180deg, #000 0%,#222 100%);
   width: 30%;
   color: white;
   height: var(--a4-height);
